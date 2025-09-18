@@ -1,20 +1,20 @@
-## R5 nano
+# R5 nano
 
 Single board computer with future Linux support, mostly intended for use as a lightweight server.
 
 Planned SoC implementation using LiteX featuring a RISC-V CPU and 64MiB RAM.
 
-### Gateware
+## Gateware
 
 TODO
 
-### Software
+## Software
 
 Work in progress.
 
 Firmware supports bitstream upload over USB to the FPGA at the moment.
 
-### Hardware
+## Hardware
 
 * iCE40UP5k FPGA, 5280 LUTs
 * 64MiB SD-RAM
@@ -25,4 +25,4 @@ Firmware supports bitstream upload over USB to the FPGA at the moment.
 * Debug header with FPGA+STM32 GPIO, SWD for STM32
 * 52x52mm (~2x2in) board
 
-<img src="docs/images/render.png" width="20%">
+<img src="docs/images/render.png" width="50%">
